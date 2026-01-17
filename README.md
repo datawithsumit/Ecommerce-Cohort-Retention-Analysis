@@ -34,7 +34,7 @@ I treated this like a real-world Data Analyst task, following a 3-step pipeline:
 
 #### 2. Python ETL Results
 *My script successfully processing 800k rows and pushing them to the database.*
-![Python Output](cleaning_resultst.png)
+![Python Output](cleaning_results.png)
 
 #### 3. Defining the Cohorts (SQL)
 *Here I am grouping customers by their first purchase date.*
