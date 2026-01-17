@@ -29,20 +29,28 @@ I treated this like a real-world Data Analyst task, following a 3-step pipeline:
 ### 📸 Project Visuals
 
 #### 1. The Final Dashboard
-*The heatmap shows a clear "Triangle" pattern. The dark blue (100%) represents the cohort start, and the fading numbers show the drop-off over time.*
-![Dashboard](dashboard_heatmap.png)
+*Visualizing the churn pattern: 35% drop-off observed in Month 1.*
+<p align="center">
+  <img src="dashboard_heatmap.png" width="90%" title="Tableau Dashboard">
+</p>
 
 #### 2. Python ETL Results
-*My script successfully processing 800k rows and pushing them to the database.*
-![Python Output](cleaning_results.png)
+*Successfully processed and loaded 800k+ rows into the database.*
+<p align="center">
+  <img src="cleaning_results.png" width="80%" title="Python ETL">
+</p>
 
 #### 3. Defining the Cohorts (SQL)
-*Here I am grouping customers by their first purchase date.*
-![SQL Cohort Logic](sql_cohort_logic.png)
+*Identifying the "First Purchase Month" for every customer.*
+<p align="center">
+  <img src="sql_cohort_logic.png" width="80%" title="Cohort Logic">
+</p>
 
 #### 4. Calculating the Retention Matrix (SQL)
 *This is the core logic: comparing the Join Date vs. Purchase Date to find the "Month Index".*
-![SQL Retention](sql_retention_query.png)
+<p align="center">
+  <img src="sql_retention_query.png" width="80%" title="Retention Matrix">
+</p>
 
 ---
 
