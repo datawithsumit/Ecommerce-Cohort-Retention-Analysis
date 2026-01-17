@@ -37,7 +37,7 @@ I treated this like a real-world Data Analyst task, following a 3-step pipeline:
 #### 2. Python ETL Results
 *Successfully processed and loaded 800k+ rows into the database.*
 <p align="center">
-  <img src="cleaning_results.png" width="80%" title="Python ETL">
+  <img src="cleaning_results.png" width="50%" title="Python ETL">
 </p>
 
 #### 3. Defining the Cohorts (SQL)
@@ -49,7 +49,7 @@ I treated this like a real-world Data Analyst task, following a 3-step pipeline:
 #### 4. Calculating the Retention Matrix (SQL)
 *This is the core logic: comparing the Join Date vs. Purchase Date to find the "Month Index".*
 <p align="center">
-  <img src="sql_retention_query.png" width="80%" title="Retention Matrix">
+  <img src="sql_retention_query.png" width="50%" title="Retention Matrix">
 </p>
 
 ---
